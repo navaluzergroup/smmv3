@@ -1,0 +1,22 @@
+{
+    "name": "lenovo/psr-4",
+    "description": "Navaluzer Group Inc, SMM Indonesia.",
+    "license": "Navaluzer Group, MIT, GPL license",
+    "authors": [
+        {
+            "name": "Rezky Maulana",
+            "email": "rezkyforce@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\": "application/",
+            "Sys\\": "system/"
+        }
+    }
+}
